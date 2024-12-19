@@ -1,3 +1,3 @@
 #!/bin/bash
-conda activate lab
+source activate lab
 pip install jupyterlab
