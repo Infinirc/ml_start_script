@@ -2,10 +2,10 @@
 #!/bin/bash
 
 # 下載 Anaconda 安裝檔案
-wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh -O Anaconda3-2024.10-1-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2025.06-0-Linux-x86_64.sh -O Anaconda3-2025.06-0-Linux-x86_64.sh
 
 # 執行安裝
-bash Anaconda3-2024.10-1-Linux-x86_64.sh
+bash Anaconda3-2025.06-0-Linux-x86_64.sh
 
 # 確認安裝是否成功
 if [ $? -ne 0 ]; then
